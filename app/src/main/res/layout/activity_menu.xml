@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/iconInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="307dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/insert"
+        android:onClick="selecionarOpcao"
+        android:text="Insert" />
+
+    <TextView
+        android:id="@+id/iconSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iconInsert"
+        android:drawableTop="@drawable/select"
+        android:onClick="selecionarOpcao"
+        android:text="Select"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/iconUpdate"
+        android:layout_width="90dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/update"
+        android:onClick="selecionarOpcao"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/iconDelete"
+        android:layout_width="128dp"
+        android:layout_height="201dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/delete"
+        android:onClick="selecionarOpcao"
+        android:text="Delete" />
+
+
+</GridLayout>
